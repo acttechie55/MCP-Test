@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flowbite Color Palette</title>
+  <link rel="stylesheet" href="flowbite-variables.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-family);
+      background-color: var(--white);
+      padding: 40px;
+    }
+
+    .color-section {
+      margin-bottom: 35px;
+    }
+
+    .color-header {
+      margin-bottom: 10px;
+    }
+
+    .color-title {
+      font-size: var(--text-3xl);
+      font-weight: var(--font-bold);
+      color: var(--gray-900);
+      line-height: var(--leading-normal);
+    }
+
+    .color-token {
+      font-size: var(--text-xl);
+      font-weight: var(--font-normal);
+      color: var(--cool-gray-500);
+      line-height: var(--leading-normal);
+    }
+
+    .color-row {
+      display: flex;
+      width: 100%;
+      max-width: 1110px;
+    }
+
+    .color-swatch {
+      height: 75px;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: var(--text-base);
+      font-weight: var(--font-semibold);
+      line-height: var(--leading-normal);
+    }
+
+    .color-swatch:first-child {
+      border-radius: 15px 0 0 15px;
+    }
+
+    .color-swatch:last-child {
+      border-radius: 0 15px 15px 0;
+    }
+
+    .text-dark {
+      color: var(--cool-gray-900);
+    }
+
+    .text-light {
+      color: var(--white);
+    }
+
+    /* Cool Gray */
+    .cool-gray-900 { background-color: var(--cool-gray-900); }
+    .cool-gray-800 { background-color: var(--cool-gray-800); }
+    .cool-gray-700 { background-color: var(--cool-gray-700); }
+    .cool-gray-600 { background-color: var(--cool-gray-600); }
+    .cool-gray-500 { background-color: var(--cool-gray-500); }
+    .cool-gray-400 { background-color: var(--cool-gray-400); }
+    .cool-gray-300 { background-color: var(--cool-gray-300); }
+    .cool-gray-200 { background-color: var(--cool-gray-200); }
+    .cool-gray-100 { background-color: var(--cool-gray-100); }
+    .cool-gray-50 { background-color: var(--cool-gray-50); }
+
+    /* Red */
+    .red-900 { background-color: var(--red-900); }
+    .red-800 { background-color: var(--red-800); }
+    .red-700 { background-color: var(--red-700); }
+    .red-600 { background-color: var(--red-600); }
+    .red-500 { background-color: var(--red-500); }
+    .red-400 { background-color: var(--red-400); }
+    .red-300 { background-color: var(--red-300); }
+    .red-200 { background-color: var(--red-200); }
+    .red-100 { background-color: var(--red-100); }
+    .red-50 { background-color: var(--red-50); }
+
+    /* Green */
+    .green-900 { background-color: var(--green-900); }
+    .green-800 { background-color: var(--green-800); }
+    .green-700 { background-color: var(--green-700); }
+    .green-600 { background-color: var(--green-600); }
+    .green-500 { background-color: var(--green-500); }
+    .green-400 { background-color: var(--green-400); }
+    .green-300 { background-color: var(--green-300); }
+    .green-200 { background-color: var(--green-200); }
+    .green-100 { background-color: var(--green-100); }
+    .green-50 { background-color: var(--green-50); }
+
+    /* Blue */
+    .blue-900 { background-color: var(--blue-900); }
+    .blue-800 { background-color: var(--blue-800); }
+    .blue-700 { background-color: var(--blue-700); }
+    .blue-600 { background-color: var(--blue-600); }
+    .blue-500 { background-color: var(--blue-500); }
+    .blue-400 { background-color: var(--blue-400); }
+    .blue-300 { background-color: var(--blue-300); }
+    .blue-200 { background-color: var(--blue-200); }
+    .blue-100 { background-color: var(--blue-100); }
+    .blue-50 { background-color: var(--blue-50); }
+  </style>
+</head>
+<body>
+  <!-- Gray (Cool Gray) -->
+  <section class="color-section">
+    <div class="color-header">
+      <h2 class="color-title">Gray (Cool Gray)</h2>
+      <p class="color-token">colors.coolGray</p>
+    </div>
+    <div class="color-row">
+      <div class="color-swatch cool-gray-900 text-light">900</div>
+      <div class="color-swatch cool-gray-800 text-light">800</div>
+      <div class="color-swatch cool-gray-700 text-light">700</div>
+      <div class="color-swatch cool-gray-600 text-light">600</div>
+      <div class="color-swatch cool-gray-500 text-light">500</div>
+      <div class="color-swatch cool-gray-400 text-light">400</div>
+      <div class="color-swatch cool-gray-300 text-dark">300</div>
+      <div class="color-swatch cool-gray-200 text-dark">200</div>
+      <div class="color-swatch cool-gray-100 text-dark">100</div>
+      <div class="color-swatch cool-gray-50 text-dark">050</div>
+    </div>
+  </section>
+
+  <!-- Red -->
+  <section class="color-section">
+    <div class="color-header">
+      <h2 class="color-title">Red</h2>
+      <p class="color-token">colors.red</p>
+    </div>
+    <div class="color-row">
+      <div class="color-swatch red-900 text-light">900</div>
+      <div class="color-swatch red-800 text-light">800</div>
+      <div class="color-swatch red-700 text-light">700</div>
+      <div class="color-swatch red-600 text-light">600</div>
+      <div class="color-swatch red-500 text-light">500</div>
+      <div class="color-swatch red-400 text-light">400</div>
+      <div class="color-swatch red-300 text-dark">300</div>
+      <div class="color-swatch red-200 text-dark">200</div>
+      <div class="color-swatch red-100 text-dark">100</div>
+      <div class="color-swatch red-50 text-dark">050</div>
+    </div>
+  </section>
+
+  <!-- Green -->
+  <section class="color-section">
+    <div class="color-header">
+      <h2 class="color-title">Green</h2>
+      <p class="color-token">colors.green</p>
+    </div>
+    <div class="color-row">
+      <div class="color-swatch green-900 text-light">900</div>
+      <div class="color-swatch green-800 text-light">800</div>
+      <div class="color-swatch green-700 text-light">700</div>
+      <div class="color-swatch green-600 text-light">600</div>
+      <div class="color-swatch green-500 text-light">500</div>
+      <div class="color-swatch green-400 text-light">400</div>
+      <div class="color-swatch green-300 text-dark">300</div>
+      <div class="color-swatch green-200 text-dark">200</div>
+      <div class="color-swatch green-100 text-dark">100</div>
+      <div class="color-swatch green-50 text-dark">050</div>
+    </div>
+  </section>
+
+  <!-- Blue -->
+  <section class="color-section">
+    <div class="color-header">
+      <h2 class="color-title">Blue</h2>
+      <p class="color-token">colors.blue</p>
+    </div>
+    <div class="color-row">
+      <div class="color-swatch blue-900 text-light">900</div>
+      <div class="color-swatch blue-800 text-light">800</div>
+      <div class="color-swatch blue-700 text-light">700</div>
+      <div class="color-swatch blue-600 text-light">600</div>
+      <div class="color-swatch blue-500 text-light">500</div>
+      <div class="color-swatch blue-400 text-light">400</div>
+      <div class="color-swatch blue-300 text-dark">300</div>
+      <div class="color-swatch blue-200 text-dark">200</div>
+      <div class="color-swatch blue-100 text-dark">100</div>
+      <div class="color-swatch blue-50 text-dark">050</div>
+    </div>
+  </section>
+</body>
+</html>
