@@ -2,6 +2,12 @@
 
 An experimental project exploring the integration of **Figma MCP** (Model Context Protocol) with **Claude Code** to automate the conversion of design system variables and components into production-ready code.
 
+## Tutorial
+
+Watch the full walkthrough on YouTube:
+
+[![Figma MCP + Claude Code Tutorial](https://img.youtube.com/vi/0-H5PJXGQ4k/0.jpg)](https://www.youtube.com/watch?v=0-H5PJXGQ4k)
+
 ## Purpose
 
 This project demonstrates how to:
